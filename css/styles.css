@@ -1,0 +1,81 @@
+
+:root {
+    /* палітра */
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primary-white-color: #fff;
+    --secondary-bg-color: #F5F4FA;
+    --special-bg-color: #2F303A;
+    
+    /* шрифти */
+
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Верхній і нижній логотипи */
+.logo {
+    color: var(--accent-text-color)
+}
+.logo-part-two {
+    color: var(--title-text-color)
+}
+.footer .logo-part-two {
+    color: var(--primary-white-color);
+}
+
+/* Головна кнопка */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    cursor: pointer;
+}
+.button:hover, .button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+}
+
+
+/* Заголовки */
+.title {
+    color: var(--title-text-color);
+}
+.hero .title {
+    color: var(--primary-white-color);
+}
+
+/* Посилання */
+.contact-list .link {
+    color: var(--primary-text-color);
+}
+.address .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.link {
+    color: var(--title-text-color);
+}
+.link:hover, .link:focus {
+    color: var(--accent-text-color);
+}
+
+/* адреса */
+.address {
+    color: var(--primary-white-color);
+}
+
+/* Фони секцій */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+.hero, .footer {
+    background-color: var(--special-bg-color);
+}
+
