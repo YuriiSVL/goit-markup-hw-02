@@ -7,36 +7,49 @@
     --primary-white-color: #fff;
     --secondary-bg-color: #F5F4FA;
     --special-bg-color: #2F303A;
-    
     /* шрифти */
+    --primary-font-family: 'Roboto';
+    --secondary-font-family: 'Raleway';
 
 }
-
+/* Глобальні стилі для усієї сторінки */
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    font-family: var(--primary-font-family);
+    letter-spacing: 0.03em;
 }
-
+/* Прибирає маркери у списках */
 ul {
     list-style: none;
 }
 
 /* Верхній і нижній логотипи */
 .logo {
-    color: var(--accent-text-color)
+    color: var(--accent-text-color);
+    text-decoration: none;    
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;   
 }
-.logo-part-two {
-    color: var(--title-text-color)
+.logo .logo-part-two {
+    color: var(--title-text-color);
 }
 .footer .logo-part-two {
     color: var(--primary-white-color);
 }
 
-/* Головна кнопка */
+/* Кнопка у Hero */
 .button {
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
     cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88em;
 }
 .button:hover, .button:focus {
     color: var(--primary-white-color);
@@ -50,9 +63,87 @@ ul {
 }
 .hero .title {
     color: var(--primary-white-color);
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.features h2 {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17em;
+    text-align: center;
+    /* letter-spacing: 0.03em; */
+}
+.features h3 {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14em;
+    text-transform: uppercase;
+}
+
+.doing h2 {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17em;
+    text-align: center;
+}
+
+.team h2 {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17em;
+    text-align: center;
+    /* letter-spacing: 0.03em; */
+}
+
+.team h3 {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19em;
+    /* letter-spacing: 0.03em; */
+}
+/* параграфи */
+.team p {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    font-size: 14px;
+    line-height: 1.19em;
+    /* letter-spacing: 0.03em; */
+}
+
+.features p {
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    font-size: 14px;
+    line-height: 1.71em;
+    /* letter-spacing: 0.03em; */
 }
 
 /* Посилання */
+.nav-list .link, .contact-list .link {
+    /* font-family: 'Roboto'; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+}
 .contact-list .link {
     color: var(--primary-text-color);
 }
@@ -61,6 +152,7 @@ ul {
 }
 .link {
     color: var(--title-text-color);
+    text-decoration: none;
 }
 .link:hover, .link:focus {
     color: var(--accent-text-color);
@@ -69,8 +161,11 @@ ul {
 /* адреса */
 .address {
     color: var(--primary-white-color);
+    font-style: normal;
+    /* font-family: 'Roboto'; */
+    font-size: 14px;
+    line-height: 1.71em;
 }
-
 /* Фони секцій */
 .team {
     background-color: var(--secondary-bg-color);
