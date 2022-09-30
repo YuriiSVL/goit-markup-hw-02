@@ -34,15 +34,15 @@ ul {
     font-size: 26px;
     line-height: 1.2;   
 }
-.logo .logo-part-two {
+.logo-part-header {
     color: var(--title-text-color);
 }
-.footer .logo-part-two {
+.logo-part-footer {
     color: var(--primary-white-color);
 }
 
-/* Кнопка у Hero */
-.button {
+/* Головна кнопка у Hero */
+.btn-primary {
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
     cursor: pointer;
@@ -108,7 +108,6 @@ ul {
     text-align: center;
     /* letter-spacing: 0.03em; */
 }
-
 .team h3 {
     /* font-family: 'Roboto'; */
     /* font-style: normal; */
@@ -126,7 +125,6 @@ ul {
     line-height: 1.19em;
     /* letter-spacing: 0.03em; */
 }
-
 .features p {
     /* font-family: 'Roboto'; */
     /* font-style: normal; */
