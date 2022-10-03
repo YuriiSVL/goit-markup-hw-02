@@ -18,7 +18,6 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-    letter-spacing: 0.03em;
     font-family: var(--primary-font-family), sans-serif;
     letter-spacing: 0.03em;
 }
@@ -36,6 +35,8 @@ ul {
     background-color: var(--secondary-bg-color);
     cursor: pointer;
     font-family: inherit;
+    letter-spacing: 0.03em;
+;
 }
 .button:hover,
 .button:focus {
